@@ -9,28 +9,29 @@
 <body>
     <div class="box">
         <div class="title-box">Calculator Javascript</div>
-        <div class="output-box">Null</div>
+        <div id='output' class="output-box"></div>
         <div class="options-box">
-            <button>AC</button>
-            <button>DEL</button>
-            <button>%</button>
-            <button>&divide;</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>x</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
-            <button>=</button>
-            <button>0</button>
-            <button>.</button>
+            <button onclick="getButtonEvent('clear')">AC</button>
+            <button onclick="getButtonEvent('delete')">DEL</button>
+            <button onclick="getButtonEvent('%')">%</button>
+            <button  onclick="getButtonEvent('divide')">&divide;</button>
+            <button  onclick="getButtonEvent(7)">7</button>
+            <button  onclick="getButtonEvent(8)">8</button>
+            <button  onclick="getButtonEvent(9)">9</button>
+            <button  onclick="getButtonEvent('times')">x</button>
+            <button  onclick="getButtonEvent(4)">4</button>
+            <button  onclick="getButtonEvent(5)">5</button>
+            <button  onclick="getButtonEvent(6)">6</button>
+            <button  onclick="getButtonEvent('sub')">-</button>
+            <button  onclick="getButtonEvent(1)">1</button>
+            <button  onclick="getButtonEvent(2)">2</button>
+            <button  onclick="getButtonEvent(3)">3</button>
+            <button  onclick="getButtonEvent('add')">+</button>
+            <button  onclick="getButtonEvent('equal')">=</button>
+            <button  onclick="getButtonEvent(0)">0</button>
+            <button  onclick="getButtonEvent('dot')">.</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
